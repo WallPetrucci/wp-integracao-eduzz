@@ -15,6 +15,7 @@
 	// edz_gtr_param5: Parâmetros opcionais enviados via GET (p5) no redirecionamento para o checkout
 	// edz_valorpago: Valor pago pelo cliente
 
+
 	// $codFatura = $_POST['edz_fat_cod'];
 	// $codConteudo = $_POST['edz_cnt_cod'];
 	// $codCliente = $_POST['edz_cli_cod'];
