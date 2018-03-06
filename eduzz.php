@@ -90,7 +90,7 @@
 	if (($codFatura != "") && ($codConteudo != "") && ($codCliente != "") && ($nsidPost != "")) {
 	
 		$nsidGerada = 0;
-		$nsidGerada sha1($codFatura . $codConteudo . $codCliente);
+		$nsidGerada = sha1($codFatura . $codConteudo . $codCliente);
 		
 		if ($nsidPost == $nsidGerada) {
 
